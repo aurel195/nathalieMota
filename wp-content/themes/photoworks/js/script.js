@@ -1,25 +1,22 @@
-// Get the modal
-var modal = document.getElementById('myModal');
+//  J'ouvre la modale et je ferme la modale
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+console.log("mon fichier js démarre");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-    modal.style.display = "block";
-}
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
+document.addEventListener("DOMContentLoaded", function() {
+    const openModalButton = document.querySelector("#contact-menu-item a");
+    const modal = document.getElementById("myModal");
+    const modalOverlay = document.querySelector(".modal_overlay");
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
+    function openModal() {
+        modal.style.display = "block";
+    }    
+    function closeModal() {
         modal.style.display = "none";
     }
-}
+    
+    openModalButton.addEventListener("click",openModal);
+    modalOverlay.addEventListener("click",closeModal);
+    });
+
