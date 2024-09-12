@@ -114,6 +114,18 @@ p {
      object-fit: cover;
 }
 
+.fade-in-out {
+  animation: fadeInOut 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .menu_header {
   display: flex; /* Utiliser Flexbox pour l'alignement */
   justify-content: center; /* Centrer horizontalement tous les éléments à l'intérieur */
@@ -190,8 +202,8 @@ p {
   font-size: 12px;
   border: 1px solid #B8BBC2;
   background-color: #D8D8D8;
-  color: black;
-  cursor: pointer;
+  color: black; /* Couleur du texte */
+  cursor: pointer; /* Curseur pointer pour améliorer l'UX */
   padding: 10px;
   box-sizing: border-box;
   transition: background-color 0.3s;
