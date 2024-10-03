@@ -1,25 +1,30 @@
-// Get the modal
-var modal = document.getElementById('myModal');
+// Change la valeur de l'input "référence"
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+jQuery(document).ready(function($) {
+    $('#contact-btn').click(function() {
+        let currentReference = $(this).data('reference');
+        $('.ref_photo').val(currentReference);
+    });
+});
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-    modal.style.display = "block";
-}
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
+// burger
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+function burger_menu(){
+    const buttonBurger = document.querySelector('.button_burger');
+    const closeBurger = document.querySelector('.close_burger');
+    const menuBurger = document.querySelector('.main-navigation');
+
+    button.addEventListener('click',function(){
+        menuBurger.classList.toggle('active');
+        buttonBurger.classList.toggle('inactive');
+        closeBurger.classList.toggle('active');
+    });
+
+    close.addEventListener('click', function(){
+        menuBurger.classList.toggle('active');
+        buttonBurger.classList.toggle('inactive');
+        closeBurger.classList.toggle('active');
+    })
 }
