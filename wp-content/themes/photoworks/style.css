@@ -1,6 +1,11 @@
 /*
+<<<<<<< HEAD
 Theme Name: Photoworks
 */
+=======
+ Theme Name: Photoworks
+ */
+>>>>>>> recuperer_commits
 @font-face {
   font-family: "Space_Mono";
   src: url("./fonts/Space_Mono/Italic.ttf") format("truetype");
@@ -57,10 +62,20 @@ p {
 
 .main-container {
   max-width: 1440px;
+<<<<<<< HEAD
   width: 100%;
   margin: 0 auto;
 }
 
+=======
+  margin: 0 auto;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+>>>>>>> recuperer_commits
 .Logo {
   width: 344px;
   max-height: 70px;
@@ -85,6 +100,37 @@ p {
   border-top: 1px solid;
 }
 
+<<<<<<< HEAD
+=======
+.menu-burger {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .menu-burger {
+    display: flex;
+    background-image: url("./assets/logo/button_burger.png");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 18px;
+    background-size: 27px 18px;
+  }
+}
+
+.close_burger {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .close_burger {
+    display: flex;
+    background-image: url("./assets/logo/close_burger.png");
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 18px;
+    background-size: 22px 18px;
+  }
+}
+
+>>>>>>> recuperer_commits
 #menu-main-menu {
   display: flex;
   list-style: none;
@@ -101,6 +147,16 @@ p {
   color: black;
 }
 
+<<<<<<< HEAD
+=======
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+>>>>>>> recuperer_commits
 .menu_header {
   display: flex;
   justify-content: space-between;
@@ -108,7 +164,11 @@ p {
   height: 80px;
 }
 
+<<<<<<< HEAD
 #main-navigation ul.menu li a, #contact-menu-item a {
+=======
+.main-navigation ul.menu li a, #contact-menu-item a {
+>>>>>>> recuperer_commits
   font-family: "Space_Mono";
   font-weight: 400;
   font-size: 16px;
@@ -223,11 +283,16 @@ p {
 }
 
 .photo_header img {
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: 100vw;
+>>>>>>> recuperer_commits
   height: auto;
 }
 
 .hero-header {
+<<<<<<< HEAD
   width: 100%;
   position: relative;
   box-sizing: border-box;
@@ -279,6 +344,69 @@ p {
 
 .infos {
   margin-top: -30px;
+=======
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.hero-header .hero-image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.titre_header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+.container {
+  max-width: 1440px;
+  height: 80vh;
+  display: flex;
+  margin: 60px auto;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.wp-block-image {
+  margin: 0;
+  padding: 0;
+}
+
+.photo {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.photo img {
+  width: 100%;
+  max-height: 80vh;
+  display: block;
+}
+
+.photo-info {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.title {
+  width: 60%;
+>>>>>>> recuperer_commits
 }
 
 .info {
@@ -290,6 +418,11 @@ p {
 }
 
 .contact-container {
+<<<<<<< HEAD
+=======
+  max-width: 1440px;
+  margin: 0 auto;
+>>>>>>> recuperer_commits
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
@@ -349,11 +482,34 @@ p {
   margin: 0 5px;
 }
 
+<<<<<<< HEAD
 .related-photos {
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
+=======
+.related-container {
+  max-width: 1440px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.related-photos {
+  margin: 80px auto;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.title-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.title-container h3 {
+  margin-top: 80px;
+>>>>>>> recuperer_commits
 }
 
 .overlay {
@@ -428,6 +584,18 @@ p {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
+=======
+.results-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+>>>>>>> recuperer_commits
 .photo-item {
   position: relative;
   width: 25vw;
@@ -465,6 +633,7 @@ p {
   position: fixed;
   top: 0;
   left: 0;
+<<<<<<< HEAD
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -477,6 +646,17 @@ p {
   display: none;
   justify-content: center;
   align-items: center;
+=======
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  animation: lightboxIn 0.5s;
+>>>>>>> recuperer_commits
 }
 
 @keyframes lightboxIn {
@@ -509,6 +689,22 @@ p {
   right: 170px;
 }
 
+<<<<<<< HEAD
+=======
+.lightbox__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox__image {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+>>>>>>> recuperer_commits
 .lightbox__close {
   width: 20px;
   height: 20px;
@@ -524,10 +720,15 @@ p {
   color: white;
   background: transparent;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> recuperer_commits
 .lightbox__close:hover {
   opacity: 1;
 }
 
+<<<<<<< HEAD
 .cat {
   position: absolute;
   bottom: 10px;
@@ -542,10 +743,13 @@ p {
   font-size: 14px;
 }
 
+=======
+>>>>>>> recuperer_commits
 .lightbox .hidden {
   display: none;
 }
 
+<<<<<<< HEAD
 .lightbox #lightbox-category,
 .lightbox #lightbox-reference {
   font-family: "Poppins";
@@ -579,12 +783,22 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+=======
+.lightbox__reference,
+.lightbox__category {
+>>>>>>> recuperer_commits
   color: white;
 }
 
 .filters-container {
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
+=======
+  width: 100vw;
+  margin: 0 auto;
+  margin-left: 555px;
+>>>>>>> recuperer_commits
 }
 
 .filters {
@@ -594,6 +808,7 @@ p {
 }
 
 .taxonomie {
+<<<<<<< HEAD
   margin-left: 550px;
 }
 
@@ -604,6 +819,20 @@ p {
 .filters select {
   width: 260px;
   height: 42px;
+=======
+  display: flex;
+  gap: 15px;
+}
+
+.filter-dropdown {
+  position: relative;
+  width: 260px;
+}
+
+.dropdown-header {
+  height: 35px;
+  width: 260px;
+>>>>>>> recuperer_commits
   border: 1.3px solid #B8BBC2;
   border-radius: 8px;
   font-family: "Poppins";
@@ -611,8 +840,63 @@ p {
   font-weight: 500;
   padding: 5px;
   background-color: white;
+<<<<<<< HEAD
 }
 .filters select:hover {
   border-color: #215AFF;
   cursor: pointer;
+=======
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px;
+}
+
+.dropdown-item {
+  height: 20px;
+  min-height: 20px;
+  width: 245px;
+  color: black;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+  padding: 12px 16px;
+  display: block;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.dropdown-item:hover {
+  background-color: #E00000;
+}
+
+.chevron {
+  width: 20px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.in-dropdown-header {
+  margin-left: 15px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.cat_chevron {
+  width: 20px;
+  height: auto;
+  margin-left: 130px;
+}
+
+.trier {
+  margin-left: -14px;
+>>>>>>> recuperer_commits
 }/*# sourceMappingURL=style.css.map */

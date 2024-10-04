@@ -5,8 +5,12 @@ $photo_query_args = array(
     'posts_per_page' => 1,  
 );
 
+<<<<<<< HEAD
 if (have_posts()) : 
     while (have_posts()) : the_post(); 
+=======
+
+>>>>>>> recuperer_commits
         $type = get_field('type');
         $reference = get_field('reference');
         $categorie = get_the_terms(get_the_ID(), 'categorie' );
@@ -65,10 +69,17 @@ if (have_posts()) :
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         <div class="related-container">
             <div class="related-title">
             <h3>VOUS AIMEREZ AUSSI</H3>
             </div>
+=======
+        
+        <div class="related-title">
+            <h3>VOUS AIMEREZ AUSSI</H3>
+        </div>
+>>>>>>> recuperer_commits
             <div class="related-photos">            
                 <?php 
                 $currentCategorieIds = array();
@@ -77,7 +88,11 @@ if (have_posts()) :
                     }
                 
                 
+<<<<<<< HEAD
                 $photo_related_query_args = array(
+=======
+                    $related_photos_query_args = array(
+>>>>>>> recuperer_commits
                     'post_type' => 'photo', 
                     'posts_per_page' => 2,
                     'posts__not_in' => array(get_the_ID()), 
@@ -92,6 +107,7 @@ if (have_posts()) :
                     ),
                 ); 
                 
+<<<<<<< HEAD
                 $related_photos = new WP_Query($photo_related_query_args);
                 if ($related_photos->have_posts()) :
                     while ($related_photos->have_posts()) : $related_photos->the_post(); ?>
@@ -99,6 +115,13 @@ if (have_posts()) :
                     <?php get_template_part('template_parts/photo_block'); ?>
                  
                     <?php endwhile; 
+=======
+               $related_photos_query = new WP_Query($related_photos_query_args);
+        if ($related_photos_query->have_posts()) :
+            while ($related_photos_query->have_posts()) : $related_photos_query->the_post(); 
+                get_template_part('template_parts/photo_block'); 
+            endwhile; 
+>>>>>>> recuperer_commits
                 else : 
                     echo '<p>Aucune photo associée trouvée.</p>';
                 endif; 
@@ -106,7 +129,15 @@ if (have_posts()) :
                 ?>
                              
             </div>      
+<<<<<<< HEAD
         </div>
     <?php endwhile;
 endif; ?>
+=======
+
+            <?php get_template_part('template_parts/lightbox'); ?>
+        
+        </div>
+            
+>>>>>>> recuperer_commits
 <?php get_footer(); ?>
