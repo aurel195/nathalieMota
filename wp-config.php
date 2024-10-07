@@ -81,7 +81,7 @@ $table_prefix = 'wp_';
  */
 define('WP_DEBUG', true);
 define('WP_DEBUG_LOG', true);
-define('WP_DEBUG_DISPLAY', false);
+define('WP_DEBUG_DISPLAY', true);
 
 /* Add any custom values between this line and the "stop editing" line. */
 
@@ -99,3 +99,4 @@ require_once ABSPATH . 'wp-settings.php';
 
 define('FS_METHOD', 'direct');
 define ('FS_CHMOD_DIR', 0755); define ('FS_CHMOD_FILE', 0644);
+

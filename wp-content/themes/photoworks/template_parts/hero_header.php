@@ -15,11 +15,7 @@ if ($random_photo_query->have_posts()) :
 
             <div class="hero-header">
                 <img src="<?php the_post_thumbnail_url();?>" class="hero-image">
-<<<<<<< HEAD
-                <h1>PHOTOGRAPHE EVENT</h1>
-=======
                     <img src ="<?php echo get_template_directory_uri(); ?>/assets/logo/titre_header.png" class="titre_header">
->>>>>>> recuperer_commits
                 </div>   
             </div>
         <?php
@@ -28,9 +24,3 @@ endif;
 wp_reset_postdata();
 ?>
 
-<<<<<<< HEAD
-
-
-    
-=======
->>>>>>> recuperer_commits

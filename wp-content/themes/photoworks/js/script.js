@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-
-// Change la valeur de l'input "référence"
-
-    jQuery(document).ready(function($) {
-        $('#contact-btn').click(function() {
-            let currentReference = $(this).data('reference');
-            $('.ref_photo').val(currentReference);
-        });
-    });
-
-
-=======
 // Change la valeur de l'input "référence"
 
 jQuery(document).ready(function($) {
@@ -41,4 +28,3 @@ function burger_menu(){
         closeBurger.classList.toggle('active');
     })
 }
->>>>>>> recuperer_commits

@@ -1,11 +1,6 @@
 /*
-<<<<<<< HEAD
-Theme Name: Photoworks
-*/
-=======
  Theme Name: Photoworks
  */
->>>>>>> recuperer_commits
 @font-face {
   font-family: "Space_Mono";
   src: url("./fonts/Space_Mono/Italic.ttf") format("truetype");
@@ -62,12 +57,6 @@ p {
 
 .main-container {
   max-width: 1440px;
-<<<<<<< HEAD
-  width: 100%;
-  margin: 0 auto;
-}
-
-=======
   margin: 0 auto;
 }
 
@@ -75,7 +64,6 @@ p {
   overflow: hidden;
 }
 
->>>>>>> recuperer_commits
 .Logo {
   width: 344px;
   max-height: 70px;
@@ -100,8 +88,6 @@ p {
   border-top: 1px solid;
 }
 
-<<<<<<< HEAD
-=======
 .menu-burger {
   display: none;
 }
@@ -130,7 +116,6 @@ p {
   }
 }
 
->>>>>>> recuperer_commits
 #menu-main-menu {
   display: flex;
   list-style: none;
@@ -147,8 +132,6 @@ p {
   color: black;
 }
 
-<<<<<<< HEAD
-=======
 .header {
   max-width: 1440px;
   margin: 0 auto;
@@ -156,7 +139,6 @@ p {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
->>>>>>> recuperer_commits
 .menu_header {
   display: flex;
   justify-content: space-between;
@@ -164,11 +146,7 @@ p {
   height: 80px;
 }
 
-<<<<<<< HEAD
-#main-navigation ul.menu li a, #contact-menu-item a {
-=======
 .main-navigation ul.menu li a, #contact-menu-item a {
->>>>>>> recuperer_commits
   font-family: "Space_Mono";
   font-weight: 400;
   font-size: 16px;
@@ -283,68 +261,11 @@ p {
 }
 
 .photo_header img {
-<<<<<<< HEAD
-  width: 100%;
-=======
   width: 100vw;
->>>>>>> recuperer_commits
   height: auto;
 }
 
 .hero-header {
-<<<<<<< HEAD
-  width: 100%;
-  position: relative;
-  box-sizing: border-box;
-  margin-bottom: 100px;
-}
-
-.hero-image {
-  width: 64.8vw;
-  height: 962px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-  position: relative;
-}
-
-.hero-header h1 {
-  position: absolute;
-  font-family: "Space_Mono";
-  font-size: 96px;
-  font-weight: 700;
-  line-height: normal;
-  font-style: italic;
-  top: 50%;
-  margin: 0;
-  transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-}
-
-.photo-info {
-  width: 49vw;
-  padding: 20px;
-  box-sizing: border-box;
-  margin-top: 40%;
-}
-
-.title {
-  width: 40%;
-}
-
-.infos {
-  margin-top: -30px;
-=======
   position: relative;
   overflow: hidden;
   margin-bottom: 100px;
@@ -406,7 +327,6 @@ p {
 
 .title {
   width: 60%;
->>>>>>> recuperer_commits
 }
 
 .info {
@@ -418,11 +338,8 @@ p {
 }
 
 .contact-container {
-<<<<<<< HEAD
-=======
   max-width: 1440px;
   margin: 0 auto;
->>>>>>> recuperer_commits
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
@@ -482,13 +399,6 @@ p {
   margin: 0 5px;
 }
 
-<<<<<<< HEAD
-.related-photos {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-=======
 .related-container {
   max-width: 1440px;
   display: flex;
@@ -509,7 +419,6 @@ p {
 }
 .title-container h3 {
   margin-top: 80px;
->>>>>>> recuperer_commits
 }
 
 .overlay {
@@ -584,8 +493,6 @@ p {
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
-=======
 .results-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -595,7 +502,6 @@ p {
   margin: 0 auto;
 }
 
->>>>>>> recuperer_commits
 .photo-item {
   position: relative;
   width: 25vw;
@@ -633,20 +539,6 @@ p {
   position: fixed;
   top: 0;
   left: 0;
-<<<<<<< HEAD
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 85%;
-  height: 90%;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 99;
-  overflow: hidden;
-  animation: lightboxIn 0.5s;
-  display: none;
-  justify-content: center;
-  align-items: center;
-=======
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
@@ -656,7 +548,6 @@ p {
   align-items: center;
   overflow: hidden;
   animation: lightboxIn 0.5s;
->>>>>>> recuperer_commits
 }
 
 @keyframes lightboxIn {
@@ -689,8 +580,6 @@ p {
   right: 170px;
 }
 
-<<<<<<< HEAD
-=======
 .lightbox__container {
   position: relative;
   display: flex;
@@ -704,7 +593,6 @@ p {
   max-height: 80vh;
 }
 
->>>>>>> recuperer_commits
 .lightbox__close {
   width: 20px;
   height: 20px;
@@ -720,85 +608,25 @@ p {
   color: white;
   background: transparent;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> recuperer_commits
 .lightbox__close:hover {
   opacity: 1;
 }
 
-<<<<<<< HEAD
-.cat {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 14px;
-}
-
-.ref {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  font-size: 14px;
-}
-
-=======
->>>>>>> recuperer_commits
 .lightbox .hidden {
   display: none;
 }
 
-<<<<<<< HEAD
-.lightbox #lightbox-category,
-.lightbox #lightbox-reference {
-  font-family: "Poppins";
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-.lightbox__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 760px;
-  position: relative;
-}
-
-.image_lightbox {
-  max-width: 100%;
-  max-height: 80vh;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.overlay_lightbox {
-  position: absolute;
-  margin-top: 50px;
-  left: 0;
-  width: 100%;
-  height: 650px;
-  background-color: rgba(0, 0, 0, 0);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-=======
 .lightbox__reference,
 .lightbox__category {
->>>>>>> recuperer_commits
   color: white;
 }
 
 .filters-container {
   display: flex;
-<<<<<<< HEAD
-  flex-direction: column;
-=======
   width: 100vw;
   margin: 0 auto;
   margin-left: 555px;
->>>>>>> recuperer_commits
 }
 
 .filters {
@@ -808,18 +636,6 @@ p {
 }
 
 .taxonomie {
-<<<<<<< HEAD
-  margin-left: 550px;
-}
-
-#format-filter {
-  margin-left: 30px;
-}
-
-.filters select {
-  width: 260px;
-  height: 42px;
-=======
   display: flex;
   gap: 15px;
 }
@@ -832,7 +648,6 @@ p {
 .dropdown-header {
   height: 35px;
   width: 260px;
->>>>>>> recuperer_commits
   border: 1.3px solid #B8BBC2;
   border-radius: 8px;
   font-family: "Poppins";
@@ -840,12 +655,6 @@ p {
   font-weight: 500;
   padding: 5px;
   background-color: white;
-<<<<<<< HEAD
-}
-.filters select:hover {
-  border-color: #215AFF;
-  cursor: pointer;
-=======
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -898,5 +707,4 @@ p {
 
 .trier {
   margin-left: -14px;
->>>>>>> recuperer_commits
 }/*# sourceMappingURL=style.css.map */

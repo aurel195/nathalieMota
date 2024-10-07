@@ -1,16 +1,10 @@
 <?php
 $photo_reference= get_field('reference');
 $photo_categorie = get_the_terms(get_the_ID(), 'categorie' );
-<<<<<<< HEAD
-$closeImgUrl = " echo esc_url(get_theme_file_uri('/assets/logo/close.png'));";
-$nextImgUrl = " echo esc_url(get_theme_file_uri('/assets/logo/next_arrow.png'));";
-$prevImgUrl = " echo esc_url(get_theme_file_uri('/assets/logo/prev_arrow.png'));";?>
-=======
 $closeImgUrl = get_theme_file_uri('/assets/logo/close.png');
 $nextImgUrl = get_theme_file_uri('/assets/logo/next_arrow.png');
 $prevImgUrl = get_theme_file_uri('/assets/logo/prev_arrow.png');?>
 
->>>>>>> recuperer_commits
 
 
     <div class="photo-item">   
@@ -38,9 +32,4 @@ $prevImgUrl = get_theme_file_uri('/assets/logo/prev_arrow.png');?>
                 </p>
             </div>
         </div>    
-<<<<<<< HEAD
     </div>
-                
-=======
-    </div>
->>>>>>> recuperer_commits

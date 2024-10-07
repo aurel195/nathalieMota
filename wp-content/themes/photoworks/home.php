@@ -13,7 +13,3 @@
 
 <?php get_footer(); ?>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> recuperer_commits
