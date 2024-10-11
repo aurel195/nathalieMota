@@ -22,7 +22,7 @@ add_action('wp_enqueue_scripts', 'photoworks_enqueue_style');
 add_action('wp_enqueue_scripts', 'photoworks_enqueue_style');
 
 function photoworks_menu() {    
-  register_nav_menu( 'header-menu', 'Menu Principal');
+  register_nav_menu( 'main-menu', 'Menu Principal');
 }
 add_action( 'after_setup_theme', 'photoworks_menu' );
 

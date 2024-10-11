@@ -11,20 +11,19 @@ jQuery(document).ready(function($) {
 
 // burger
 
-function burger_menu(){
-    const buttonBurger = document.querySelector('.button_burger');
-    const closeBurger = document.querySelector('.close_burger');
-    const menuBurger = document.querySelector('.main-navigation');
+document.addEventListener('DOMContentLoaded', function() {
+    const buttonBurger = document.querySelector('.menuBurger');
+    const menu = document.getElementById('menu-main-menu');
+    if (buttonBurger) {
+        buttonBurger.addEventListener('click', function() {
+            console.log("Burger clicked"); // Vérifiez si ça s'affiche
+            buttonBurger.classList.toggle('active');
+            menu.classList.toggle('active');
+            // Ajoutez ceci pour voir si la classe active est ajoutée
+            console.log("Menu active status: ", menu.classList.contains('active'));
+        });
+    }
+});
 
-    button.addEventListener('click',function(){
-        menuBurger.classList.toggle('active');
-        buttonBurger.classList.toggle('inactive');
-        closeBurger.classList.toggle('active');
-    });
 
-    close.addEventListener('click', function(){
-        menuBurger.classList.toggle('active');
-        buttonBurger.classList.toggle('inactive');
-        closeBurger.classList.toggle('active');
-    })
-}
+   

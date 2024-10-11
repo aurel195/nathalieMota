@@ -37,7 +37,7 @@ $photo_query_args = array(
                 </div>
             </div>
             <div class="photo">
-                <?php the_content('full'); ?>
+                <?php the_content(); ?>
             </div>  
         </div>
         <div class="contact-container">

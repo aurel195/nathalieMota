@@ -1002,8 +1002,4 @@ msgstr "Réglages"
 
 #: class.akismet-admin.php:83
 msgid "Comment History"
-<<<<<<< HEAD
 msgstr "Voir l&rsquo;historique du commentaire"
-=======
-msgstr "Voir l&rsquo;historique du commentaire"
->>>>>>> recuperer_commits

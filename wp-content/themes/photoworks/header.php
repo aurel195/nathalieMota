@@ -23,9 +23,10 @@
                         ?>  
                     </nav>
             </div>
-            <div class="menu-burger">
-                <div class="button_burger"></div>
-                <div class="close_burger"></div>
+            <div class="menuBurger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
             </div>
             
 

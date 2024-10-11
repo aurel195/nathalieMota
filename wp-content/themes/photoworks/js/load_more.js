@@ -31,6 +31,7 @@ jQuery(document).ready(function ($) {
         .then(body => {
             if (!body.success) {
                 alert(body.data);
+                button.hide();
                 return;
             } 
    
@@ -44,6 +45,8 @@ jQuery(document).ready(function ($) {
             } else {
                 button.remove(); 
             }
+
+            openLightbox();
         })
         .catch(error => {
             console.error('Une erreur s\'est produite :', error);
