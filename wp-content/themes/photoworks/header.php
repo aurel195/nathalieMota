@@ -22,13 +22,14 @@
                         ));
                         ?>  
                     </nav>
-            </div>
-            <div class="menuBurger">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </div>
+           
+                <div class="menuBurger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
             
-
+            </div>           
+               
 
         </header>

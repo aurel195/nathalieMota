@@ -1,22 +1,25 @@
 <?php get_header(); ?>
-<?php
-$photo_query_args = array(
-    'post_type' => 'photo', 
-    'posts_per_page' => 1,  
-);
+<div class="container-single-photo">
+    <?php
+    $photo_query_args = array(
+        'post_type' => 'photo', 
+        'posts_per_page' => 1,  
+    );
 
         $type = get_field('type');
         $reference = get_field('reference');
         $categorie = get_the_terms(get_the_ID(), 'categorie' );
         $format = get_the_terms(get_the_ID(), 'format' );
-        $annee = get_the_date('Y'); 
-?>
-        <div class="container">
-            <div class="photo-info">
-                <div class="title">
-                    <h2><?php the_title(); ?></h2>
-                </div>
-                <div class="infos">
+        $annee = get_the_date('Y'); ?>
+    <div class="container">
+        <div class="photo">
+                <?php the_content(); ?>
+        </div>  
+        <div class="photo-info">
+            <div class="title">
+                <h2><?php the_title(); ?></h2>
+            </div>
+            <div class="infos">
                 <p class="info">RÉFÉRENCE : <?php echo esc_html($reference); ?></p>
                 <p class="info">CATÉGORIE : 
                     <?php
@@ -36,9 +39,6 @@ $photo_query_args = array(
                 <p class="info">ANNÉE : <?php echo esc_html($annee); ?></p>
                 </div>
             </div>
-            <div class="photo">
-                <?php the_content(); ?>
-            </div>  
         </div>
         <div class="contact-container">
             <div class="contact-info">
@@ -104,7 +104,7 @@ $photo_query_args = array(
             </div>      
 
             <?php get_template_part('template_parts/lightbox'); ?>
-        
-        </div>
+                
+</div>      
             
 <?php get_footer(); ?>
