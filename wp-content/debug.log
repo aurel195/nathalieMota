@@ -4787,3 +4787,104 @@ Stack trace:
 [13-Oct-2024 14:38:55 UTC]   Automatic plugin updates starting...
 [13-Oct-2024 14:38:55 UTC]   Automatic plugin updates complete.
 [13-Oct-2024 14:38:56 UTC] Automatic updates complete.
+[14-Oct-2024 08:33:44 UTC] Automatic updates starting...
+[14-Oct-2024 08:33:44 UTC]   Automatic plugin updates starting...
+[14-Oct-2024 08:33:44 UTC]   Automatic plugin updates complete.
+[14-Oct-2024 08:33:45 UTC] Automatic updates complete.
+[14-Oct-2024 09:20:42 UTC] PHP Deprecated:  Automatic conversion of false to array is deprecated in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/includes/update.php on line 185
+[14-Oct-2024 14:28:59 UTC] Automatic updates starting...
+[14-Oct-2024 14:29:00 UTC] Automatic updates complete.
+[14-Oct-2024 14:43:33 UTC] PHP Warning:  Undefined variable $photos_home_args in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/functions.php on line 59
+[14-Oct-2024 14:43:42 UTC] PHP Warning:  Undefined variable $photos_home_args in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/functions.php on line 59
+[14-Oct-2024 14:45:25 UTC] PHP Warning:  Undefined variable $photos_home_args in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/functions.php on line 59
+[14-Oct-2024 14:46:41 UTC] PHP Warning:  Undefined variable $photos_home_args in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/functions.php on line 59
+[14-Oct-2024 14:50:18 UTC] PHP Warning:  Undefined variable $photos_home_args in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/functions.php on line 59
+[14-Oct-2024 14:50:49 UTC] PHP Warning:  Undefined variable $photos_home_args in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/functions.php on line 59
+[14-Oct-2024 15:10:33 UTC] PHP Parse error:  syntax error, unexpected variable "$args" in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/functions.php on line 99
+[14-Oct-2024 16:50:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_more_photos" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php on line 324
+[14-Oct-2024 16:50:20 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_more_photos" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php on line 324
+[14-Oct-2024 16:50:20 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_more_photos" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php on line 324
+[14-Oct-2024 16:50:20 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_more_photos" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php on line 324
+[14-Oct-2024 16:50:20 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_more_photos" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php on line 324
+[14-Oct-2024 16:50:21 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_more_photos" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php on line 324
+[14-Oct-2024 16:50:21 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_more_photos" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php on line 324
+[14-Oct-2024 16:50:21 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_more_photos" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php on line 324
+[14-Oct-2024 16:50:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_more_photos" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php on line 324
+[14-Oct-2024 16:50:25 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_more_photos" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php on line 324
+[14-Oct-2024 16:50:25 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_more_photos" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-admin/admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-hook.php on line 324
+[15-Oct-2024 07:30:44 UTC] Automatic updates starting...
+[15-Oct-2024 07:30:45 UTC] Automatic updates complete.
+[15-Oct-2024 10:46:59 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/template_parts/lightbox.php on line 19
+[15-Oct-2024 10:48:41 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/template_parts/lightbox.php on line 19
+[15-Oct-2024 10:48:52 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/template_parts/lightbox.php on line 19
+[15-Oct-2024 10:53:37 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/template_parts/lightbox.php on line 19
+[15-Oct-2024 10:54:26 UTC] PHP Warning:  Attempt to read property "title" on null in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-includes/class-wp-customize-widgets.php on line 905
+[15-Oct-2024 10:54:45 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Applications/XAMPP/xamppfiles/htdocs/nathalie_mota/wp-content/themes/photoworks/template_parts/lightbox.php on line 19
+[15-Oct-2024 13:01:48 UTC] Automatic updates starting...
+[15-Oct-2024 13:01:48 UTC] Automatic updates complete.

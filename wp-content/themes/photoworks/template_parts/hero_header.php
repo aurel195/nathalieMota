@@ -14,8 +14,8 @@ if ($random_photo_query->have_posts()) :
     $random_photo_query->the_post();?>
 
             <div class="hero-header">
-                <img src="<?php the_post_thumbnail_url();?>" class="hero-image">
-                    <img src ="<?php echo get_template_directory_uri(); ?>/assets/logo/titre_header.png" class="titre_header">
+                <img src="<?php the_post_thumbnail_url();?>" class="hero-image" class="hero-image" alt="hero-image">
+                    <img src ="<?php echo get_template_directory_uri(); ?>/assets/logo/titre_header.png" class="titre_header" alt="titre_header">
                 </div>   
             </div>
         <?php

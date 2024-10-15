@@ -55,6 +55,7 @@ function load_more_photos() {
     
     $paged = isset($_POST['page']) ? intval($_POST['page']) +1 : 1;
     
+    // Requête pour récupérer plus de photos
     $photos_home_args = array(
         'post_type' => 'photo',
         'posts_per_page' => 8,
@@ -67,10 +68,10 @@ function load_more_photos() {
     if ($photos_home->have_posts()) {
         ob_start(); 
         while ($photos_home->have_posts()) : $photos_home->the_post(); 
-            get_template_part('template_parts/photo_block'); 
+            get_template_part('template_parts/photo_block'); // Récupère le template
         endwhile;
         $response = ob_get_clean();
-        wp_send_json_success($response);  
+        wp_send_json_success($response);  // Envoi les photos
     } else {
         wp_send_json_error('Aucune autre photo à charger.'); 
     }

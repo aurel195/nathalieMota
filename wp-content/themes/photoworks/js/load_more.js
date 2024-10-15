@@ -8,13 +8,13 @@ jQuery(document).ready(function ($) {
     $(document).on('click', '.js-load-more-photos', function () {
         
         const button = $(this);
-        let currentPage = button.data('page');
+        let currentPage = button.data('page'); // Récupère le numéro de la page actuelle
         const data = {
             action: button.data('action'),
             nonce: button.data('nonce'),
             page: currentPage,
         };
-       
+        // Effectue une requête fetch pour charger plus de photos
         fetch(loadMoreData.ajaxurl, {
             method: 'POST',
             headers: {
@@ -35,18 +35,18 @@ jQuery(document).ready(function ($) {
                 return;
             } 
    
-            $('.gallery').append(body.data); 
+            $('.gallery').append(body.data); // Ajoute les nouvelles photos à la galerie
            
-            button.data('page', currentPage + 1); 
+            button.data('page', currentPage + 1); // Incrémente le numéro de la page
             
     
             if (body.data && body.data.length > 0) { 
-                button.show();
+                button.show(); // Montre le bouton si des photos ont été ajoutées
             } else {
-                button.remove(); 
+                button.remove(); // Supprime le bouton si aucune photo n'est trouvée
             }
 
-            openLightbox();
+            openLightbox(); // Ouvre la lightbox pour les nouvelles images
         })
         .catch(error => {
             console.error('Une erreur s\'est produite :', error);

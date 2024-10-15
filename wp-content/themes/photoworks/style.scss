@@ -371,6 +371,7 @@ p{
 
 .container-single-photo {
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     @media (max-width: 1024px) {
@@ -380,8 +381,9 @@ p{
 
 .container {
     max-width: 1440px;
-    min-height: 80vh;
+    min-height: 90vh;
     display: flex;
+    overflow: auto;
     align-items: stretch;
     flex-direction: row-reverse;
     @media (max-width: 1024px) {
@@ -469,12 +471,12 @@ p{
 }
 
 
-
+ 
 //Partie 2
 //Contact
 
 .contact-info {
-    width:50%;
+    width:48%;
     display: flex;
     border-top: 1px solid black;
     justify-content: space-between;
@@ -939,8 +941,8 @@ transform: translate(-50%, -50%);
     cursor: pointer;
     border-radius: 8px;
     &:hover{
-        background-color:#E00000;
-    } 
+        background: linear-gradient(to bottom, #FFD6D6, #FE5858, #E00000);
+    }
 }
 
 .chevron {

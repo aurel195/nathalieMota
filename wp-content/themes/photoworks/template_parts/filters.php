@@ -52,4 +52,5 @@
     </div>
 </div>
 
-<div class="results-container"></div>
+<div class="results-container">
+</div>

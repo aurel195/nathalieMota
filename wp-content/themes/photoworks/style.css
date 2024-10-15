@@ -362,6 +362,7 @@ p {
 
 .container-single-photo {
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -373,8 +374,9 @@ p {
 
 .container {
   max-width: 1440px;
-  min-height: 80vh;
+  min-height: 90vh;
   display: flex;
+  overflow: auto;
   align-items: stretch;
   flex-direction: row-reverse;
 }
@@ -469,7 +471,7 @@ p {
 }
 
 .contact-info {
-  width: 50%;
+  width: 48%;
   display: flex;
   border-top: 1px solid black;
   justify-content: space-between;
@@ -947,7 +949,7 @@ p {
   border-radius: 8px;
 }
 .dropdown-item:hover {
-  background-color: #E00000;
+  background: linear-gradient(to bottom, #FFD6D6, #FE5858, #E00000);
 }
 
 .chevron {

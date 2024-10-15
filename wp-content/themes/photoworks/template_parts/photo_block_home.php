@@ -21,8 +21,7 @@
             class="js-load-more-photos"
             data-page="1"
             data-nonce="<?php echo wp_create_nonce('load_more_photos'); ?>"
-            data-action="load_more_photos"
-            data-ajaxurl="<?php echo admin_url('admin-ajax.php'); ?>">Charger plus
+            data-action="load_more_photos">Charger plus
         </button>
     </div>
 
